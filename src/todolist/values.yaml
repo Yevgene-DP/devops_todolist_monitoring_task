@@ -1,0 +1,10 @@
+serviceMonitor:
+  enabled: true
+  labels: {}
+  interval: 10s
+  path: /metrics
+  port: http
+  image:
+  repository: yevgene/todoapp
+  tag: "1.0.0"
+
